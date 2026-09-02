@@ -266,7 +266,7 @@ button {
     background-color: hsl(224, 30%, 27%);;
 }
 
-button:hover{
+button:active{
     background-color: hsl(234, 85%, 45%);
 }
 
