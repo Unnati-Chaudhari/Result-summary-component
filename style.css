@@ -20,22 +20,99 @@
     justify-content: center;
     align-items: center;
      background-color:hsl(221, 100%, 96%);
-     border-radius: 15px;
+     border-radius: 25px;
 }
 
+/* ------------Result Section-------------- */
 .container_card_one {
     height: 40rem;
     width: 27.5rem;
-    background-color: hsl(241, 81%, 54%);
-    border-radius: 15px;
+    background: linear-gradient(
+    180deg,
+    hsl(252, 100%, 67%),
+    hsl(241, 81%, 54%));;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
+.your_result{
+    height: 9rem;
+    width: 22rem;
+    font-size: 2rem;
+    font-weight: 500;
+    color: hsl(221, 100%, 96%, 0.8);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.total_score{
+    height: 20rem;
+    width: 22rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.circle {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    background: linear-gradient(
+        hsl(256, 72%, 46%),
+        hsla(241, 72%, 46%, 0));;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 5.5rem;
+    color: hsl(0, 0%, 100%);
+}
+
+#out_of {
+    font-size: 1.2rem;
+    color: hsl(221, 100%, 96%, 0.7);
+}
+
+.great{
+    height: 6rem;
+    width: 22rem;
+    color: hsl(0, 0%, 100%);
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.appreciation{
+    height: 13rem;
+    width: 22rem;
+    color: hsl(221, 100%, 96%, 0.7);
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+
+/* ------------Summary Section------------ */
 .container_card_two {
     height: 40rem;
     width: 27.5rem;
     background-color:hsl(221, 100%, 96%);
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,5 +263,9 @@ button {
     color: hsl(221, 100%, 96%);
     font-size: 1rem;
     font-weight: 600;
-    background-color: darkblue;
+    background-color: hsl(224, 30%, 27%);;
+}
+
+button:hover{
+    background-color: hsl(234, 85%, 45%);
 }
