@@ -269,3 +269,139 @@ button {
 button:hover{
     background-color: hsl(234, 85%, 45%);
 }
+
+
+
+/* --------Adding media queries for responsiveness---------- */
+@media screen and (max-width: 768px){
+    .main_container {
+        height: auto;
+    }
+
+    .container {
+       height: 100%;
+       width: 100%;
+       flex-direction: column;
+    }
+
+    .container_card_one {
+        width: 100%;
+        height: auto;
+        min-height: 25rem;
+        border-radius: 0 0 25px 25px;
+    }
+
+    .container_card_two {
+        height: auto;
+        width: 100%;
+        min-height: 35rem;
+    }
+
+    .your_result {
+        width: 100%;
+    }
+
+    .total_score {
+        width: 100%;
+    }
+
+    .great {
+        width: 100%;
+    }
+
+    .appreciation {
+        width: 90%;
+    }
+
+    .summary {
+        width: 85%;
+    }
+
+    .subjects {
+        width: 85%;
+    }
+
+    .continue {
+        width: 90%;
+    }
+
+    button {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .container_card_one {
+        min-height: 22rem;
+    }
+
+    .your_result {
+        height: 5rem;
+        font-size: 1.5rem;
+    }
+
+    .total_score {
+        height: 14rem;
+    }
+
+    .circle {
+        width: 12rem;
+        height: 12rem;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+
+    #out_of {
+        font-size: 1rem;
+    }
+
+    .great {
+        height: 4rem;
+        font-size: 1.7rem;
+    }
+
+    .appreciation {
+        height: auto;
+        padding-bottom: 2rem;
+        font-size: 1rem;
+    }
+
+    .container_card_two {
+        min-height: 32rem;
+    }
+
+    .summary {
+        width: 85%;
+        height: 5rem;
+        padding-bottom: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .subjects {
+        width: 85%;
+        margin: 0.4rem;
+    }
+
+    .subject_name {
+        width: 12rem;
+        font-size: 16px;
+    }
+
+    .score {
+        width: 5rem;
+    }
+
+    .continue {
+        width: 85%;
+        height: 7rem;
+    }
+
+    button {
+        height: 3.5rem;
+        width: 100%;
+    }
+}
